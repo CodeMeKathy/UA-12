@@ -1,3 +1,51 @@
 body {
-  font-family: sans-serif;
+  background-color: #4e5266;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.header {
+  display: flex;
+}
+
+#brandName,
+#menu {
+  font-size: 14.6667px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner {
+  display: flex;
+}
+
+.textBoxHeader {
+  /* font-size: 18.3333px !important; */
+  text-transform: uppercase;
+  font-weight: 500 !important;
+}
+
+.textBox {
+  padding-right: 0px !important;
+}
+
+.textBox1 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+#carouselSlider {
+  padding-left: 0px !important;
+  height: 445px !important;
+}
+
+.carouselPic {
+  height: 445px !important;
+  margin-right: 0px;
+}
+
+img#cP2.carouselPic {
+  height: 71.5vh !important;
+  width: 58vw !important;
 }
